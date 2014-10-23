@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mylistviewanimotion.com.mylistviewanimotion" >
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AppearanceExamplesActivity"
+            android:label="@string/appearance" />
+        <activity
+            android:name=".GoogleCardsActivity"
+            android:label="@string/googlecards" />
+        <activity
+            android:name=".ItemManipulationsExamplesActivity"
+            android:label="@string/itemmanipulation" />
+        <activity
+            android:name=".DynamicListViewActivity"
+            android:label="@string/dynamiclistview" />
+        <activity
+            android:name=".GridViewActivity"
+            android:label="@string/gridviewexample" />
+        <activity
+            android:name=".ExpandableListItemActivity"
+            android:label="@string/expandablelistitemadapter" />
+        <activity
+            android:name=".StickyListHeadersActivity"
+            android:label="@string/stickylistheaders" />
+    </application>
+
+</manifest>
